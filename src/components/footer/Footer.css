@@ -1,0 +1,34 @@
+.footer {
+  background-color: #232f3e !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+  bottom: 0;
+}
+
+.footer_blocks {
+  margin: 5%;
+}
+
+.footer_blocks > p {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer_navFooter {
+  padding: 1%;
+  border-bottom: 1px solid lightgray;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: #0f1a30;
+  font-style: inherit;
+}
+
+.footer_navFooter :hover {
+  cursor: point;
+}
